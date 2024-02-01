@@ -1,0 +1,12 @@
+[server]
+headless = true
+port = 8501
+
+[server]  # Incorrect - Move this comment to the line below
+headless = true
+port = 8501
+
+[server]
+# Comment moved to the line below
+headless = true
+port = 8501
